@@ -1,0 +1,26 @@
+/* Just a comment */
+body{
+    background-color: black;
+    color:rgb(69, 139, 208)
+}
+input{
+    background-color: rgb(69, 139, 208);
+    color: white;
+}
+#submit{
+    background-color: rgb(49, 31, 213);
+}
+img{
+    height: 300px;
+    border: 5px solid #fafafa;
+}
+.TableImage{
+    height: 10%;
+    width: 10%;
+    border: 2px solid #fafafa
+}
+table, th, td {
+    border: 1px solid #fafafa;
+    text-align: center;
+    width: 300px;
+}

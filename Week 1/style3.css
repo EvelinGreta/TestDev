@@ -1,0 +1,45 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    border: solid red;
+}
+.grid-item{
+    border: solid red
+}
+#Chameleon{
+    height: 100%;
+    width: 100%;
+}
+#Chameleon{
+    grid-column: 1/3;
+    grid-row: 2/5;
+}
+.grid-item{
+    height: 100px;
+}
+
+#this-2a{
+    grid-column: 1;
+    grid-row: 2;
+}
+#this-2b{
+    grid-column: 2;
+    grid-row: 2;
+}
+#this-3a{
+    grid-column: 1;
+    grid-row: 3;
+}
+#this-3b{
+    grid-column: 2;
+    grid-row: 3;
+}
+#this-4a{
+    grid-column: 1;
+    grid-row: 4;
+}
+#this-4b{
+    grid-column: 2;
+    grid-row: 4;
+}
